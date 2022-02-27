@@ -82,7 +82,7 @@ function Students() {
         <div className='container__profiles'>
             <h1><BsPlusSquare className='logo__1'/>&nbsp;&nbsp;Students</h1>
             {
-          data.map(({id, image,image2})=>{
+          data.map(({id, image})=>{
             return(
                 <>
                 <img src={image} alt='' id='img__pfps' />
